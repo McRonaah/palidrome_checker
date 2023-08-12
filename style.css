@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 1px solid black;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#numberInput{
+    width: 200px;
+    height: 40px;
+    border: none;
+    margin-bottom: 10px;
+    box-shadow: 1px 2px 10px 0.5px gray;
+    border-radius: 8px;
+    padding-left: 20px;
+}
+
+#checkButton{
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 5px;
+}
+
+#checkButton:hover{
+ cursor: pointer;
+ transform: scale(0.9);
+ background-color: blueviolet;
+ color: aliceblue;
+}
